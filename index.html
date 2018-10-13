@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="assets/img/github_icon.png"/>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Github Profile Viewer</title>
+</head>
+<body>
+    <section class="container text-center"> 
+        <img class="responsive" height="150px" src="https://res.cloudinary.com/beumsk/image/upload/v1520448223/github.jpg">
+        <h1 class="text-center text-uppercase">Github Profile</h1>
+        <form>
+            <div class="form-group">
+                <label class="sr-only">Github User</label>
+                <div class="input-group">
+                    <input id="user" type="text" class="form-control input-sm" placeholder="Github User" required>
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default btn-sm">Search</button>
+                    </span>
+                </div>
+            </div>
+        </form>        
+        <div id="github-profile">
+            <img id="profile-img" class="responsive" height="200px" src="">
+        </div>
+    </section>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+</body>
+</html>
